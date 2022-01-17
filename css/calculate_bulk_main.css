@@ -1,9 +1,15 @@
 html {
+  width: 100%;
   height: 100%;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 html body {
+  width: 100%;
   height: 100%;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 html body #fast_div {
@@ -11,11 +17,7 @@ html body #fast_div {
   text-align: center;
 }
 
-html body #fast_div header {
-  text-align: center;
-}
-
-html body #fast_div header h1 {
+html body #fast_div h1 {
   margin: 40px auto;
 }
 
@@ -32,24 +34,8 @@ html body #fast_div main p span {
   color: red;
 }
 
-html body #fast_div main table {
-  margin: 30px auto;
-  width: 400px;
-}
-
-html body #fast_div main table td {
-  width: 400px;
-}
-
-html body #fast_div main table td button {
-  width: 300px;
-  height: 100px;
-  font-size: 1.6rem;
-}
-
 html body footer {
   height: 20%;
   text-align: center;
-  font-size: 1.4rem;
 }
 /*# sourceMappingURL=calculate_bulk_main.css.map */
