@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>customer index</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="../css/customer_index.css"
+        />
+        <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="../js/history_insert.js"></script>
+        <script type="text/javascript" src="../js/Display_change.js"></script>
+        <script type="text/javascript" src="../js/jQuery_modal.js"></script>
+        <script type="text/javascript" src="../js/total_fee.js"></script>
+    </head>
+    <body>
+        <header><h1>まさる堂へようこそ</h1></header>
+        <main>
+            <div id="main_div">
+                <table>
+                    <tr>
+                        <td><button id="Start_btn">入室</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="End_btn">退室</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="Kaiin">会員登録</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="in_div" class="content">
+                <table id="Call_btn_tbl">
+                    <tr>
+                        <td id="Return_field">
+                            <button
+                                type="button"
+                                class="Main_Return"
+                                id="Return_btn"
+                            >
+                                戻る
+                            </button>
+                        </td>
+                        <td id="clerk_call_field">
+                            <button type="button" id="clerk_call">
+                                店員呼出
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <table id="in_tbl">
+                    <tr>
+                        <td>
+                            <a
+                                href="#"
+                                class="js_modal_opne"
+                                data-target="IN_modal_open_1"
+                            >
+                                <button class="Hour">1時間</button>
+                            </a>
+                        </td>
+                        <td>
+                            <a
+                                href="#"
+                                class="js_modal_opne"
+                                data-target="IN_modal_opne_2"
+                            >
+                                <button class="Hour">2時間</button>
+                            </a>
+                        </td>
+                        <td>
+                            <a
+                                href="#"
+                                class="js_modal_opne"
+                                data-target="IN_modal_opne_3"
+                            >
+                                <button class="Hour">3時間</button>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <a
+                                href="#"
+                                class="js_modal_opne"
+                                data-target="IN_modal_opne_Free"
+                            >
+                                <button class="HourFree">フリータイム</button>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="out_div">
+                <table id="Call_btn_tbl2">
+                    <tr>
+                        <td id="Return_field2">
+                            <button
+                                type="button"
+                                class="Main_Return"
+                                id="Return_btn2"
+                            >
+                                戻る
+                            </button>
+                        </td>
+                        <td id="clerk_call_field2">
+                            <button type="button" id="clerk_call2">
+                                店員呼出
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <button id="All_S">全員清算</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="Prat_S">一部清算</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="modal_window_group">
+                <div id="IN_modal_open_1" class="modal js_modal">
+                    <div class="modal__bg js_modal_close"></div>
+                    <div class="modal__content">
+                        <a href="#" class="js_modal_close">閉じる</a>
+                        <div id="Contents_div001">
+                            <p>
+                                1時間当たりの料金は!!!<span
+                                    id="price_001"
+                                    class="price"
+                                    >1000</span
+                                >円!!!です。
+                            </p>
+                            <p>延長は自動にされます。</p>
+                            <form
+                                action="./customer/customer_in.html"
+                                method="get"
+                            >
+                                <table>
+                                    <tr>
+                                        <td>人数</td>
+                                        <td>
+                                            <button
+                                                id="Minus_001"
+                                                class="Minus"
+                                                type="button"
+                                            >
+                                                ―
+                                            </button>
+                                        </td>
+                                        <td><p id="Num_of_peo_001">1</p></td>
+                                        <td>
+                                            <button
+                                                id="Plus_001"
+                                                class="Plus"
+                                                type="button"
+                                            >
+                                                ＋
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>計</td>
+                                        <td colspan="3">
+                                            <span id="total_fee_001">1000</span
+                                            >円
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <input type="submit" value="決定" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="IN_modal_opne_2" class="modal js_modal">
+                    <div class="modal__bg js_modal_close"></div>
+                    <div class="modal__content">
+                        <a href="#" class="js_modal_close">閉じる</a>
+                        <div id="Contents_div002">
+                            <p>
+                                1時間当たりの料金は!!!<span
+                                    id="price_002"
+                                    class="price"
+                                    >1000</span
+                                >円!!!です。
+                            </p>
+                            <p>延長は自動にされます。</p>
+                            <form
+                                action="./customer/customer_in.html"
+                                method="get"
+                            >
+                                <table>
+                                    <tr>
+                                        <td>人数</td>
+                                        <td>
+                                            <button
+                                                id="Minus_002"
+                                                class="Minus"
+                                                type="button"
+                                            >
+                                                ―
+                                            </button>
+                                        </td>
+                                        <td><p id="Num_of_peo_002">1</p></td>
+                                        <td>
+                                            <button
+                                                id="Plus_002"
+                                                class="Plus"
+                                                type="button"
+                                            >
+                                                ＋
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>計</td>
+                                        <td colspan="3">
+                                            <span id="total_fee_002">2000</span
+                                            >円
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <input type="submit" value="決定" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="IN_modal_opne_3" class="modal js_modal">
+                    <div class="modal__bg js_modal_close"></div>
+                    <div class="modal__content">
+                        <a href="#" class="js_modal_close">閉じる</a>
+                        <div id="Contents_div003">
+                            <p>
+                                1時間当たりの料金は!!!<span
+                                    id="price_003"
+                                    class="price"
+                                    >1000</span
+                                >円!!!です。
+                            </p>
+                            <p>延長は自動にされます。</p>
+                            <form
+                                action="./customer/customer_in.html"
+                                method="get"
+                            >
+                                <table>
+                                    <tr>
+                                        <td>人数</td>
+                                        <td>
+                                            <button
+                                                id="Minus_003"
+                                                class="Minus"
+                                                type="button"
+                                            >
+                                                ―
+                                            </button>
+                                        </td>
+                                        <td><p id="Num_of_peo_003">1</p></td>
+                                        <td>
+                                            <button
+                                                id="Plus_003"
+                                                class="Plus"
+                                                type="button"
+                                            >
+                                                ＋
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>計</td>
+                                        <td colspan="3">
+                                            <span id="total_fee_003">3000</span
+                                            >円
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <input type="submit" value="決定" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="IN_modal_opne_Free" class="modal js_modal">
+                    <div class="modal__bg js_modal_close"></div>
+                    <div class="modal__content">
+                        <a href="#" class="js_modal_close">閉じる</a>
+                        <div id="Contents_divFree">
+                            <p>
+                                1時間当たりの料金は!!!<span
+                                    id="price_Free"
+                                    class="price"
+                                    >2500</span
+                                >円!!!です。
+                            </p>
+                            <p>延長は自動にされます。</p>
+                            <form
+                                action="./customer/customer_in.html"
+                                method="get"
+                            >
+                                <table>
+                                    <tr>
+                                        <td>人数</td>
+                                        <td>
+                                            <button
+                                                id="Minus_Free"
+                                                class="Minus"
+                                                type="button"
+                                            >
+                                                ―
+                                            </button>
+                                        </td>
+                                        <td><p id="Num_of_peo_Free">1</p></td>
+                                        <td>
+                                            <button
+                                                id="Plus_Free"
+                                                class="Plus"
+                                                type="button"
+                                            >
+                                                ＋
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>計</td>
+                                        <td colspan="3">
+                                            <span id="total_fee_Free">3000</span
+                                            >円
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <input type="submit" value="決定" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>copyright&copy; All free creaters Ltd. 2021</footer>
+    </body>
+</html>
