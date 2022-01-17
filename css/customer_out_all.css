@@ -1,11 +1,19 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0 0;
+  padding: 0 0;
+}
+
 html body {
   width: 100%;
   height: 100%;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 html body #fast_div {
   height: 80%;
-  width: 100%;
   text-align: center;
   position: relative;
 }
@@ -58,7 +66,7 @@ html body #fast_div .parent main table td #Dutch_treat {
   font-size: 1.4rem;
 }
 
-html body footer {
+html footer {
   height: 20%;
   text-align: center;
 }
