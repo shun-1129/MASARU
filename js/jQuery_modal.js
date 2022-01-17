@@ -1,4 +1,3 @@
-/// <reference path="../ts/JQuery.d.ts" />
 $(function () {
     $(".js_modal_opne").each(function () {
         $(this).on("click", function () {
