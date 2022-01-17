@@ -15,22 +15,33 @@ html body {
 html body #fast_div {
   height: 80%;
   text-align: center;
+  position: relative;
 }
 
-html body #fast_div h1 {
+html body #fast_div .parent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -webkit-transform-transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+html body #fast_div .parent h1 {
   margin: 40px auto;
 }
 
-html body #fast_div main {
+html body #fast_div .parent main {
   margin: 0 auto;
 }
 
-html body #fast_div main p {
+html body #fast_div .parent main p {
   text-align: center;
   font-size: 1.5rem;
 }
 
-html body #fast_div main p span {
+html body #fast_div .parent main p span {
   color: red;
 }
 
