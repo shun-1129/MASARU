@@ -1,0 +1,33 @@
+header {
+  text-align: center;
+}
+
+nav {
+  background: red;
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+
+main {
+  background: blue;
+  float: left;
+  width: 80%;
+  padding: 20px 0;
+}
+
+main table {
+  margin: 0 auto;
+}
+
+main table td {
+  font-size: 1.4rem;
+}
+
+footer {
+  float: none;
+  text-align: center;
+}
+/*# sourceMappingURL=shop_index.css.map */

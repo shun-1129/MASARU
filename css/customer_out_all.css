@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+}
+
+html body {
+  height: 100%;
+}
+
+html body #fast_div {
+  height: 80%;
+}
+
+html body #fast_div header {
+  text-align: center;
+}
+
+html body #fast_div header h1 {
+  margin: 40px auto;
+}
+
+html body #fast_div main {
+  text-align: center;
+}
+
+html body #fast_div main p {
+  font-size: 1.4rem;
+}
+
+html body #fast_div main p span {
+  color: red;
+}
+
+html body #fast_div main table {
+  margin: 30px auto;
+  width: 400px;
+}
+
+html body #fast_div main table td {
+  width: 200px;
+}
+
+html body #fast_div main table td #Bulk {
+  width: 180px;
+  height: 80px;
+  font-size: 1.4rem;
+}
+
+html body #fast_div main table td #Dutch_treat {
+  width: 180px;
+  height: 80px;
+  font-size: 1.4rem;
+}
+
+html footer {
+  height: 20%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+/*# sourceMappingURL=customer_out_all.css.map */
