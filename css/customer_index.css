@@ -57,6 +57,21 @@ main #main_div {
   text-align: center;
 }
 
+main #main_div #Call_btn_tbl0 {
+  margin: 20px auto;
+  width: 600px;
+}
+
+main #main_div #Call_btn_tbl0 td {
+  width: 600px;
+  text-align: right;
+}
+
+main #main_div #Call_btn_tbl0 td button {
+  width: 150px;
+  height: 50px;
+}
+
 main #main_div table {
   margin: 30px auto;
 }
