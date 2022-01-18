@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/Call_tbl.sass"
+    ],
+    "names": [],
+    "file": "Call_tbl.css"
+}
