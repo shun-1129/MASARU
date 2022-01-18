@@ -3,23 +3,28 @@
   margin: 20px auto;
 }
 
-#call_tbl .Return_td {
+.call_tbl {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.call_tbl .Return_td {
   width: 300px;
   text-align: left;
 }
 
-#call_tbl .Return_td .Return_btn_class {
+.call_tbl .Return_td .Return_btn_class {
   width: 150px;
   height: 50px;
   font-size: 1.4rem;
 }
 
-#call_tbl .Call_td {
+.call_tbl .Call_td {
   width: 300px;
   text-align: right;
 }
 
-#call_tbl .Call_td .Call_btn_class {
+.call_tbl .Call_td .Call_btn_class {
   width: 150px;
   height: 50px;
   font-size: 1.4rem;
