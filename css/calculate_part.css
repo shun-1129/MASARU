@@ -18,58 +18,91 @@ html #fast_div .parent, body #fast_div .parent {
   -webkit-transform: translate(-50%, -50%);
   -webkit-transform-transform: translate(-50%, -50%);
   width: 100%;
-  text-align: center;
 }
 
-html #fast_div .parent main #Call_tbl, body #fast_div .parent main #Call_tbl {
+html #fast_div .parent main #call_tbl, body #fast_div .parent main #call_tbl {
   width: 600px;
-}
-
-html #fast_div .parent main #Call_tbl tr td, body #fast_div .parent main #Call_tbl tr td {
-  width: 300px;
-}
-
-html #fast_div .parent main #Call_tbl tr .Return_td, body #fast_div .parent main #Call_tbl tr .Return_td {
-  text-align: left;
-}
-
-html #fast_div .parent main #Call_tbl tr .Return_td .Return_btn_class, body #fast_div .parent main #Call_tbl tr .Return_td .Return_btn_class {
-  width: 150px;
-  height: 50px;
-  font-size: 1.4rem;
-}
-
-html #fast_div .parent main #Call_tbl tr .Call_td, body #fast_div .parent main #Call_tbl tr .Call_td {
-  text-align: right;
-}
-
-html #fast_div .parent main #Call_tbl tr .Call_td .Call_btn_class, body #fast_div .parent main #Call_tbl tr .Call_td .Call_btn_class {
-  width: 150px;
-  height: 50px;
-  font-size: 1.4rem;
-}
-
-html #fast_div .parent main table, body #fast_div .parent main table {
-  width: 500px;
   margin: 20px auto;
 }
 
-html #fast_div .parent main table tr .select_box, body #fast_div .parent main table tr .select_box {
-  width: 60px;
-  height: 60px;
-  text-align: center;
-}
-
-html #fast_div .parent main table tr .Content_F0, body #fast_div .parent main table tr .Content_F0 {
+html #fast_div .parent main #call_tbl .Return_td, body #fast_div .parent main #call_tbl .Return_td {
   width: 300px;
-  height: 60px;
   text-align: left;
 }
 
-html #fast_div .parent main table tr .Content_F1, body #fast_div .parent main table tr .Content_F1 {
-  width: 140px;
-  height: 60px;
+html #fast_div .parent main #call_tbl .Return_td .Return_btn_class, body #fast_div .parent main #call_tbl .Return_td .Return_btn_class {
+  width: 150px;
+  height: 50px;
+  font-size: 1.4rem;
+}
+
+html #fast_div .parent main #call_tbl .Call_td, body #fast_div .parent main #call_tbl .Call_td {
+  width: 300px;
   text-align: right;
+}
+
+html #fast_div .parent main #call_tbl .Call_td .Call_btn_class, body #fast_div .parent main #call_tbl .Call_td .Call_btn_class {
+  width: 150px;
+  height: 50px;
+  font-size: 1.4rem;
+}
+
+html #fast_div .parent main #select_tbl, body #fast_div .parent main #select_tbl {
+  width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+html #fast_div .parent main #select_tbl .select_box, body #fast_div .parent main #select_tbl .select_box {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+html #fast_div .parent main #select_tbl .select_box input[type=checkbox], body #fast_div .parent main #select_tbl .select_box input[type=checkbox] {
+  width: 40px;
+  height: 40px;
+}
+
+html #fast_div .parent main #select_tbl .Content_F0, body #fast_div .parent main #select_tbl .Content_F0 {
+  width: 250px;
+  height: 50px;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 1.3rem;
+}
+
+html #fast_div .parent main #select_tbl .Content_F1, body #fast_div .parent main #select_tbl .Content_F1 {
+  width: 100px;
+  height: 50px;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 1.3rem;
+}
+
+html #fast_div .parent main #TOTAL, body #fast_div .parent main #TOTAL {
+  width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+html #fast_div .parent main #TOTAL td, body #fast_div .parent main #TOTAL td {
+  width: 300px;
+  font-size: 1.8rem;
+}
+
+html #fast_div .parent main #TOTAL td span, body #fast_div .parent main #TOTAL td span {
+  color: red;
+}
+
+html #fast_div .parent main #TOTAL td input[type=reset], body #fast_div .parent main #TOTAL td input[type=reset] {
+  width: 150px;
+  height: 50px;
+  font-size: 1.4rem;
+}
+
+html #fast_div .parent main #TOTAL td input[type=submit], body #fast_div .parent main #TOTAL td input[type=submit] {
+  width: 150px;
+  height: 50px;
+  font-size: 1.4rem;
 }
 
 html footer, body footer {
