@@ -7,6 +7,8 @@
         <title>仮登録済み</title>
         <link rel="stylesheet" href="../../css/ten_member_reg.css" />
         <link rel="stylesheet" href="../../css/Call_tbl.css" />
+        <script src="../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../js/jQuery_modal.js"></script>
     </head>
     <body>
         <div id="fast_div">
@@ -25,13 +27,21 @@
                                 </a>
                             </td>
                             <td class="Call_td">
-                                <button class="Call_btn_class">店員呼出</button>
+                                <a
+                                    href="#"
+                                    class="js_modal_opne"
+                                    data-target="modal005"
+                                    ><button class="Call_btn_class">
+                                        店員呼出
+                                    </button>
+                                </a>
                             </td>
                         </tr>
                     </table>
                     <p>
                         仮会員登録時にメールアドレスへ送信された6ケタの番号を入力してください。
                     </p>
+                    <br />
                     <form action="../member/member_reg_claim.html">
                         <table id="TESTER">
                             <tr>
@@ -54,6 +64,13 @@
                         </table>
                     </form>
                 </main>
+            </div>
+        </div>
+        <div id="modal005" class="modal js_modal">
+            <div class="modal__bg js_modal_close"></div>
+            <div class="modal__content">
+                <a href="#" class="js_modal_close">閉じる</a>
+                <p>ただいま店員がまいりますしばらくお待ちください。</p>
             </div>
         </div>
         <footer>copyright&copy; All free creaters Ltd. 2021</footer>
