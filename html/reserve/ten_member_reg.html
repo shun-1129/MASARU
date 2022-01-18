@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>仮登録済み</title>
+        <link rel="stylesheet" href="../../css/ten_member_reg.css" />
+        <link rel="stylesheet" href="../../css/Call_tbl.css" />
+    </head>
+    <body>
+        <div id="fast_div">
+            <div class="parent">
+                <header>
+                    <h1>本会員登録</h1>
+                </header>
+                <main>
+                    <table class="call_tbl">
+                        <tr>
+                            <td class="Return_td">
+                                <a href="../customer_index.html">
+                                    <button class="Return_btn_class">
+                                        戻る
+                                    </button>
+                                </a>
+                            </td>
+                            <td class="Call_td">
+                                <button class="Call_btn_class">店員呼出</button>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>
+                        仮会員登録時にメールアドレスへ送信された6ケタの番号を入力してください。
+                    </p>
+                    <form action="../member/member_reg_claim.html">
+                        <table id="TESTER">
+                            <tr>
+                                <td colspan="2">
+                                    <input
+                                        type="text"
+                                        name="mail_code"
+                                        value="123456"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="reset" value="入力クリア" />
+                                </td>
+                                <td>
+                                    <input type="submit" value="送信" />
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </main>
+            </div>
+        </div>
+        <footer>copyright&copy; All free creaters Ltd. 2021</footer>
+    </body>
+</html>
