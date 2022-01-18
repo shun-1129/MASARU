@@ -20,33 +20,6 @@ html #fast_div .parent, body #fast_div .parent {
   width: 100%;
 }
 
-html #fast_div .parent main #call_tbl, body #fast_div .parent main #call_tbl {
-  width: 600px;
-  margin: 20px auto;
-}
-
-html #fast_div .parent main #call_tbl .Return_td, body #fast_div .parent main #call_tbl .Return_td {
-  width: 300px;
-  text-align: left;
-}
-
-html #fast_div .parent main #call_tbl .Return_td .Return_btn_class, body #fast_div .parent main #call_tbl .Return_td .Return_btn_class {
-  width: 150px;
-  height: 50px;
-  font-size: 1.4rem;
-}
-
-html #fast_div .parent main #call_tbl .Call_td, body #fast_div .parent main #call_tbl .Call_td {
-  width: 300px;
-  text-align: right;
-}
-
-html #fast_div .parent main #call_tbl .Call_td .Call_btn_class, body #fast_div .parent main #call_tbl .Call_td .Call_btn_class {
-  width: 150px;
-  height: 50px;
-  font-size: 1.4rem;
-}
-
 html #fast_div .parent main #select_tbl, body #fast_div .parent main #select_tbl {
   width: 600px;
   margin: 0 auto 20px auto;
