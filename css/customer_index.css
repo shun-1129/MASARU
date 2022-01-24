@@ -3,6 +3,7 @@ html, body {
   height: 100%;
   margin: 0 0;
   padding: 0 0;
+  background-color: #FFFFEE;
 }
 
 html #fast_div, body #fast_div {
@@ -10,7 +11,9 @@ html #fast_div, body #fast_div {
 }
 
 html #fast_div .parent header, body #fast_div .parent header {
-  margin: 20px auto;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #DDA0DD;
 }
 
 html #fast_div .parent header h1, body #fast_div .parent header h1 {
