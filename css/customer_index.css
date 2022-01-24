@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0 0;
   padding: 0 0;
-  background-color: #FFFFEE;
+  background-color: #FFFFC0;
 }
 
 html #fast_div, body #fast_div {
@@ -13,11 +13,11 @@ html #fast_div, body #fast_div {
 html #fast_div .parent header, body #fast_div .parent header {
   margin: 0 auto;
   padding: 50px;
-  background-color: #DDA0DD;
 }
 
 html #fast_div .parent header h1, body #fast_div .parent header h1 {
   text-align: center;
+  font-size: 3rem;
 }
 
 html #fast_div .parent main, body #fast_div .parent main {
