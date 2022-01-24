@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,EAAE,CAAC,AAAA,YAAY,CAAC;EACxB,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAO;CAAG;;AAChC,AAAA,YAAY,AAAA,MAAM,EAAE,CAAC,AAAA,YAAY,AAAA,MAAM,CAAC;EACpC,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,OAAO;CAAG",
+    "sources": [
+        "../sass/BUTTON_Design_Style.sass"
+    ],
+    "names": [],
+    "file": "BUTTON_Design_Style.css"
+}
