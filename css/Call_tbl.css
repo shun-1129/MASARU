@@ -1,15 +1,15 @@
 #call_tbl {
-  width: 600px;
+  width: 800px;
   margin: 20px auto;
 }
 
 .call_tbl {
-  width: 600px;
+  width: 800px;
   margin: 20px auto;
 }
 
 .call_tbl .Return_td {
-  width: 300px;
+  width: 400px;
   text-align: left;
 }
 
@@ -20,13 +20,7 @@
 }
 
 .call_tbl .Call_td {
-  width: 300px;
+  width: 400px;
   text-align: right;
-}
-
-.call_tbl .Call_td .Call_btn_class {
-  width: 150px;
-  height: 50px;
-  font-size: 1.4rem;
 }
 /*# sourceMappingURL=Call_tbl.css.map */
