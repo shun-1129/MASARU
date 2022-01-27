@@ -11,15 +11,14 @@
   position: relative;
   margin: 0 auto;
   padding: 1em 4em;
-  width: 300px;
   color: #333;
   font-size: 1.8rem;
   font-weight: 700;
   background-color: #c53030;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  width: 500px;
-  height: 150px;
+  width: 400px;
+  height: 120px;
   text-decoration: none;
   color: white;
 }

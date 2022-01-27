@@ -11,7 +11,7 @@ html #fast_div, body #fast_div {
 
 html #fast_div .parent header, body #fast_div .parent header {
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
 }
 
 html #fast_div .parent header h1, body #fast_div .parent header h1 {
@@ -133,4 +133,5 @@ html footer, body footer {
   height: 10%;
   text-align: center;
 }
+
 /*# sourceMappingURL=customer_index.css.map */
