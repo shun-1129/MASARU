@@ -1,9 +1,14 @@
 .header {
   width: 100%;
-  text-align: center;
   height: 120px;
-  line-height: 120px;
-  background-color: #d6bcfa;
+  display: table;
+  text-align: center;
+  background-color: #c53030;
+  color: white;
+}
+.header h1 {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .wrap {
@@ -11,21 +16,39 @@
   height: calc(100vh - 120px);
 }
 .wrap-content {
-  position: relative;
   height: 100%;
   width: 100%;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
 }
-.wrap-content form label {
-  color: black;
-  padding-right: 20px;
+.wrap-content form table {
+  font-size: 30px;
+  margin: auto;
+  text-align: start;
+  border-collapse: separate;
+  border-spacing: 50px;
+}
+.wrap-content form a {
+  color: #c53030;
+  margin-right: 100px;
 }
 .wrap-content form input {
-  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 10px;
 }
-.wrap-content a {
-  margin-right: 20px;
+.wrap-content form select {
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
 }
+
+.select-wrap {
+  display: block;
+}
+.select-wrap input {
+  width: 80px;
+}
+
+/*# sourceMappingURL=addstock.css.map */
 
 /*# sourceMappingURL=addstock.css.map */

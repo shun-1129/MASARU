@@ -4,13 +4,11 @@ html, body {
   margin: 0 0;
   padding: 0 0;
 }
-
 html #fast_div, body #fast_div {
   height: 80%;
   text-align: center;
   position: relative;
 }
-
 html #fast_div .parent, body #fast_div .parent {
   position: absolute;
   top: 50%;
@@ -19,23 +17,19 @@ html #fast_div .parent, body #fast_div .parent {
   -webkit-transform-transform: translate(-50%, -50%);
   width: 100%;
 }
-
 html #fast_div .parent main #select_tbl, body #fast_div .parent main #select_tbl {
   width: 600px;
   margin: 0 auto 20px auto;
 }
-
 html #fast_div .parent main #select_tbl .select_box, body #fast_div .parent main #select_tbl .select_box {
   width: 50px;
   height: 50px;
   vertical-align: middle;
 }
-
 html #fast_div .parent main #select_tbl .select_box input[type=checkbox], body #fast_div .parent main #select_tbl .select_box input[type=checkbox] {
   width: 40px;
   height: 40px;
 }
-
 html #fast_div .parent main #select_tbl .Content_F0, body #fast_div .parent main #select_tbl .Content_F0 {
   width: 250px;
   height: 50px;
@@ -43,7 +37,6 @@ html #fast_div .parent main #select_tbl .Content_F0, body #fast_div .parent main
   vertical-align: middle;
   font-size: 1.3rem;
 }
-
 html #fast_div .parent main #select_tbl .Content_F1, body #fast_div .parent main #select_tbl .Content_F1 {
   width: 100px;
   height: 50px;
@@ -51,33 +44,27 @@ html #fast_div .parent main #select_tbl .Content_F1, body #fast_div .parent main
   vertical-align: middle;
   font-size: 1.3rem;
 }
-
 html #fast_div .parent main #TOTAL, body #fast_div .parent main #TOTAL {
   width: 600px;
   margin: 0 auto 20px auto;
 }
-
 html #fast_div .parent main #TOTAL td, body #fast_div .parent main #TOTAL td {
   width: 300px;
   font-size: 1.8rem;
 }
-
 html #fast_div .parent main #TOTAL td span, body #fast_div .parent main #TOTAL td span {
   color: red;
 }
-
 html #fast_div .parent main #TOTAL td input[type=reset], body #fast_div .parent main #TOTAL td input[type=reset] {
   width: 150px;
   height: 50px;
   font-size: 1.4rem;
 }
-
 html #fast_div .parent main #TOTAL td input[type=submit], body #fast_div .parent main #TOTAL td input[type=submit] {
   width: 150px;
   height: 50px;
   font-size: 1.4rem;
 }
-
 html footer, body footer {
   height: 20%;
   text-align: center;
@@ -104,8 +91,7 @@ html footer, body footer {
   padding: 40px;
   position: absolute;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 60%;
 }
 
@@ -113,4 +99,5 @@ p {
   text-align: center;
   font-size: 1.8rem;
 }
+
 /*# sourceMappingURL=calculate_part.css.map */

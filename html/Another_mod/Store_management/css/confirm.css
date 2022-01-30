@@ -3,7 +3,8 @@
   text-align: center;
   height: 120px;
   line-height: 120px;
-  background-color: #d6bcfa;
+  background-color: #c53030;
+  color: white;
 }
 
 .wrap {
@@ -19,15 +20,14 @@
 }
 .wrap-content p {
   margin-bottom: 50px;
-}
-.wrap-content ul {
-  margin-bottom: 50px;
-}
-.wrap-content ul li {
-  margin-bottom: 20px;
+  font-size: 20px;
 }
 .wrap-content a {
+  color: #c53030;
   margin-right: 20px;
+}
+.wrap-content input {
+  padding: 3px;
 }
 
 /*# sourceMappingURL=confirm.css.map */
