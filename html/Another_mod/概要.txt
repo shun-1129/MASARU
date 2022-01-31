@@ -10,9 +10,11 @@ customer_index.htmlがトップページになります
 top.htmlが
 トップページになります
 
+
 【net】
 ブラウザから見れる簡易公式HP
 toppage.htmlがトップページになります
+
 
 【order】
 カラオケの各部屋に設置されるタブレットに表示されるもの
