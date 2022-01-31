@@ -1,0 +1,5 @@
+【Store_management/top.html】
+
+社員や店員が使用するページ
+商品の管理、予約の確認などができる
+top.htmlからみてください
