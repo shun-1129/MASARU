@@ -1,3 +1,4 @@
-ブラウザから見れる公式HPのようなものです
+【net/toppage.html】
 
+ブラウザから見れる簡易公式HP
 toppage.htmlから見てください
