@@ -7,8 +7,7 @@ customer_index.htmlがトップページになります
 【Store_management】
 社員や店員が使用するページ
 商品の管理、予約の確認などができる
-top.htmlが
-トップページになります
+top.htmlがトップページになります
 
 
 【net】
