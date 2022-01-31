@@ -1,0 +1,5 @@
+【customer_index.html】
+
+入店/退店時の処理を行う
+受付に置いたタブレットもしくはパソコン画面に表示されるもの
+customer_index.htmlからみてください
